@@ -40,21 +40,22 @@ models/
 ## 🚀 How to Run the Project
 
 ### 1️⃣ Clone the Repository
-```bash
+
 git clone https://github.com/Mihika0711/NexGen-Predictive-Logistics.git
-2️⃣ Navigate to the Folder
+### 2️⃣ Navigate to the Folder
 cd "NexGen-Predictive-Logistics/Case study internship data"
-3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
 pip install -r requirements.txt
-4️⃣ Run the Dashboard
+### 4️⃣ Run the Dashboard
 streamlit run app.py
-📊 Features
+## 📊 Features
 
 ✅ Predict delivery delays based on cost, distance, and external factors
 ✅ Interactive Streamlit interface with input sliders and dropdowns
 ✅ Instant visualization of delay predictions
 ✅ Modular model design for easy retraining with new data
-🧠 Model Information
+
+## 🧠 Model Information
 
 Algorithm: XGBoost Classifier
 
@@ -65,7 +66,8 @@ Output: is_delayed → 0 (On-time) / 1 (Delayed)
 Accuracy: ~94% on validation data
 
 Note: Model files (xgb_delay.pkl, feature_cols.pkl) are excluded from GitHub due to size limits but are required to run predictions locally.
-🧾 Example Prediction
+
+## 🧾 Example Prediction
 Feature	Example Value
 Fuel Cost (INR)	200
 Labor Cost (INR)	150
@@ -75,10 +77,10 @@ Traffic Delay (Minutes)	30
 Weather Impact	Moderate
 
 Predicted Output: ✅ On-Time Delivery
-📸 Dashboard Preview
+## 📸 Dashboard Preview
 
 Developed using Streamlit with a responsive dark-themed UI.
-👩‍💻 Author
+## 👩‍💻 Author
 
 Mihika Arora
 🎓 Final Year B.Tech, Computer & Communication Engineering
